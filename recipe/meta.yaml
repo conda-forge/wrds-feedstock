@@ -1,5 +1,5 @@
 {% set name = "wrds" %}
-{% set version = "3.4.0" %}
+{% set version = "3.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/wrds-{{ version }}.tar.gz
-  sha256: 867af94c4a4fa8246ee02e82597d60d96d5b8300c380160154649b75fc018911
+  sha256: 1c6f63a9e370e216b6d6f31da23d9fdb3b9cf4a93e7870449e11c4c597f3825f
 
 build:
   noarch: python
